@@ -1,0 +1,11 @@
+.icon--calendar {
+  background: url(/images/icons/offers/calendar.png);
+  height: 26px;
+  width: 26px;
+}
+
+.icon--meal {
+  background: url(/images/icons/offers/meal.png) no-repeat;
+  height: 26px;
+  width: 35px;
+}

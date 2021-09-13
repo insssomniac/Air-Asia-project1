@@ -1,0 +1,29 @@
+.separator {
+  background: url(/images/bg/middleline.jpg) no-repeat;
+  background-size: cover;
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.separator__wrap {
+  position: relative;
+}
+.separator__content {
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.separator__pic {
+  position: absolute;
+  right: 3%;
+  bottom: -110%;
+}

@@ -1,0 +1,27 @@
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-left: -45px;
+}
+
+.partners__item {
+  margin-left: 45px;
+  flex-grow: 1;
+}
+
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  min-width: 180px;
+  max-width: 300px;
+  filter: grayscale(1);
+  transition: .5s;
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+}

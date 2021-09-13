@@ -1,0 +1,148 @@
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+body{
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+  background: #001821;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  min-width: 1200px;
+}
+
+.main-page-wrapper {
+  background: url(/images/bg/hero.jpg) center top no-repeat, url(/images/bg/bottom-pic.jpg) center bottom 180px no-repeat;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.products-section {
+  margin-bottom: 110px;
+}
+
+.title-secondary {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.products-section .title-secondary {
+  margin-bottom: 50px;
+}
+
+.title-secondary--flame--icon:after {
+  content: "";
+  display: inline-block;
+  background: url(/images/icons/flame.png) center center no-repeat;
+  width: 21px;
+  height: 28px;
+  margin-left: 7px;
+}
+
+.title-secondary--color--black {
+  color: #000;
+}
+
+.news-section {
+  margin-bottom: 150px;
+}
+
+.news-section .title-secondary {
+  margin-bottom: 50px;
+}
+
+.about-section {
+  margin-bottom: 43px;
+}
+
+.about-section .title-secondary {
+  margin-bottom: 28px;
+}
+
+.footer-container {
+  margin-top: auto;
+}
+
+.footer-container__content {
+  border-top: 1px solid #1A3038;
+}
+
+.main-content {
+  background: #fff;
+  color: #303030;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+
+.inner-section {
+  background: #fff;
+  color: #202123;
+  padding: 85px 0 80px;
+}
+
+.inner-section--reviews {
+  padding: 70px 0 100px;
+}
+
+.inner-section-bg-grey {
+  background: #F4F5F5;
+}
+
+.inner-section__title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+

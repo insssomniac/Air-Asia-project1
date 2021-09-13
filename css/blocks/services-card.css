@@ -1,0 +1,39 @@
+.services-card {
+  display: flex;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.services-card:hover .services-card__btn {
+  color: #fff;
+  background: #F5170E;
+}
+
+.services-card__pic {
+  width: 458px;
+  margin-right: 5%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.services-card__pic-elem {
+  border-radius: 6px;
+}
+
+.services-card__content {
+  flex: 1;
+  padding-top: 15px;
+}
+
+.services-card__title {
+  margin-bottom: 25px;
+}
+
+.services-card__desc {
+  line-height: 1.75;
+  margin-bottom: 30px;
+}
+
+.services-card__btn {
+  margin-bottom: 10px;
+}
